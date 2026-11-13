@@ -1,0 +1,9 @@
+# Formato de texto de smart-trainer: <duración> <potencia> [@cadencia] ["mensaje"]
+name: Endurance 60
+description: Una hora de Z2 con cambios de cadencia para trabajar la técnica.
+
+10m 45-68% "Calentamiento"
+15m 68% @90
+3x 2m 70% @105 "Cadencia alta", 3m 68% @85
+15m 72%
+5m 65-45% "Vuelta a la calma"

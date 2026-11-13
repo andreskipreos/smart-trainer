@@ -1,0 +1,23 @@
+<workout_file>
+    <author>smart-trainer</author>
+    <name>Sweet Spot 3x10</name>
+    <description>Tres bloques de 10 minutos en sweet spot (88-93% FTP) con 5 minutos de recuperación. Clásico para subir el FTP.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="10" message="Calentamiento progresivo, cadencia suelta"/>
+        </Warmup>
+        <SteadyState Duration="60" Power="0.95" Cadence="100">
+            <textevent timeoffset="0" message="Activación: 1 min a cadencia alta"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.55"/>
+        <IntervalsT Repeat="3" OnDuration="600" OffDuration="300" OnPower="0.90" OffPower="0.55" Cadence="90" CadenceResting="85">
+            <textevent timeoffset="0" message="Bloque 1: sweet spot, respira y mantén"/>
+            <textevent timeoffset="900" message="Bloque 2: ya vas por la mitad"/>
+            <textevent timeoffset="1800" message="Último bloque, ¡tú puedes!"/>
+        </IntervalsT>
+        <Cooldown Duration="420" PowerLow="0.60" PowerHigh="0.40">
+            <textevent timeoffset="0" message="Buen trabajo. Suelta las piernas"/>
+        </Cooldown>
+    </workout>
+</workout_file>

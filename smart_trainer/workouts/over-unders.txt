@@ -1,0 +1,7 @@
+name: Over-Unders 3x9
+description: Alterna 2 min al 95% con 1 min al 108% para aprender a tolerar el umbral.
+
+10m 45-75%
+3m 55%
+3x 2m 95% "Under", 1m 108% "Over", 2m 95%, 1m 108%, 2m 95%, 1m 108%, 4m 50% "Recupera"
+8m 60-40%

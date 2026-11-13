@@ -1,0 +1,18 @@
+<workout_file>
+    <author>smart-trainer</author>
+    <name>VO2 Max 5x3</name>
+    <description>Cinco intervalos de 3 minutos al 115% FTP con 3 minutos de recuperación.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="720" PowerLow="0.40" PowerHigh="0.75"/>
+        <IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.50" Cadence="100">
+            <textevent timeoffset="0" message="Aperturas: 3x30s"/>
+        </IntervalsT>
+        <SteadyState Duration="180" Power="0.50"/>
+        <IntervalsT Repeat="5" OnDuration="180" OffDuration="180" OnPower="1.15" OffPower="0.50" Cadence="95">
+            <textevent timeoffset="0" message="Intervalo VO2: arranca controlado"/>
+            <textevent timeoffset="150" message="¡Últimos 30 segundos!"/>
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.35"/>
+    </workout>
+</workout_file>

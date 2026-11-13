@@ -1,0 +1,31 @@
+<workout_file>
+    <author>smart-trainer</author>
+    <name>Ramp Test FTP</name>
+    <description>Test de rampa: escalones de 1 minuto que suben 6% FTP hasta el fallo. Tu nuevo FTP ≈ 75% de tu mejor minuto. Usa la tecla q cuando no puedas más.</description>
+    <sportType>bike</sportType>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.40" PowerHigh="0.55"/>
+        <SteadyState Duration="60" Power="0.40"/>
+        <SteadyState Duration="60" Power="0.46"/>
+        <SteadyState Duration="60" Power="0.52"/>
+        <SteadyState Duration="60" Power="0.58"/>
+        <SteadyState Duration="60" Power="0.64"/>
+        <SteadyState Duration="60" Power="0.70"/>
+        <SteadyState Duration="60" Power="0.76"/>
+        <SteadyState Duration="60" Power="0.82"/>
+        <SteadyState Duration="60" Power="0.88"/>
+        <SteadyState Duration="60" Power="0.94"/>
+        <SteadyState Duration="60" Power="1.00"/>
+        <SteadyState Duration="60" Power="1.06"/>
+        <SteadyState Duration="60" Power="1.12"/>
+        <SteadyState Duration="60" Power="1.18"/>
+        <SteadyState Duration="60" Power="1.24"/>
+        <SteadyState Duration="60" Power="1.30"/>
+        <SteadyState Duration="60" Power="1.36"/>
+        <SteadyState Duration="60" Power="1.42"/>
+        <SteadyState Duration="60" Power="1.48"/>
+        <SteadyState Duration="60" Power="1.54"/>
+        <SteadyState Duration="60" Power="1.60"/>
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.35"/>
+    </workout>
+</workout_file>
